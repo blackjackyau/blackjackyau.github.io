@@ -9,7 +9,7 @@ window.onload = function() {
 		console.log("receiveMessage");
 		console.log(e);
 		// Update the div element to display the message.
-		messageEle.innerHTML = "Message Received: " + e.data;
+		messageEle.innerHTML = "Message Received: " + e.data + "<br>Sending Acknowledgement back";
 		mainWin.postMessage("Message Received Acknowledgement", "*");
 	}
 
