@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T10:51:40.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="3Jxmc605xGFzJimhlfmL" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T03:42:18.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="GkW1K_cUHpr9qcUAnNT2" version="13.6.2" type="github">
   <diagram id="QwgGPqd0MF7SwD2WUHnU" name="Page-1">
     <mxGraphModel dx="3584" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-40" value="Client&amp;lt;Metadata&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-1045" y="6632" width="330" height="198" as="geometry" />
+        </mxCell>
         <mxCell id="Ozf3Orf0E5DyE_9hL84J-26" value="metadata" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-75" y="6095" width="445" height="390" as="geometry" />
         </mxCell>
@@ -590,6 +593,56 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1100" y="6350" as="sourcePoint" />
             <mxPoint x="-100" y="6300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ozf3Orf0E5DyE_9hL84J-37" target="Ozf3Orf0E5DyE_9hL84J-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-510" y="6710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-37" value="micro-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-412.5" y="6660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-38" value="services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="6670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-41" value="Config {}&lt;br&gt;- info&lt;br&gt;- auth&lt;br&gt;- external url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="6660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-43" value="distributed config&lt;br&gt;expired every 10 seconds (configurable)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="6655" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-44" value="client configuration, used for service lookup, good to have schema validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="6660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ozf3Orf0E5DyE_9hL84J-44" target="Ozf3Orf0E5DyE_9hL84J-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-970" y="6620" as="sourcePoint" />
+            <mxPoint x="-920" y="6570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-48" value="service-wrapper" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="6610" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-51" value="Usecase&amp;lt;Metadata&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-1045" y="6870" width="330" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-52" value="Not available in blueprint context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="6900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-54" value="Annotation {}&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="6900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-55" value="Annotation {}&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="6740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-56" value="not used as config. more like tagging (free text)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="6740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozf3Orf0E5DyE_9hL84J-58" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1140" y="6769.5" as="sourcePoint" />
+            <mxPoint x="-940" y="6769.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
