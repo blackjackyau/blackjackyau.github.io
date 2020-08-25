@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T08:21:22.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="lp7jj2TYUQ6LlnfTN1zV" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T09:06:33.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="8exyFrFXZbLD6iLoTydG" version="13.6.3" type="github">
   <diagram id="QwgGPqd0MF7SwD2WUHnU" name="Page-1">
     <mxGraphModel dx="3586" dy="2341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -807,8 +807,20 @@
         <mxCell id="nFlBU5UEVlGkz6DeCRiB-101" value="Add metadata&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1260" y="8060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nFlBU5UEVlGkz6DeCRiB-102" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Metadata&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;is used to describe the resource entity, like annotation&lt;/li&gt;&lt;li&gt;should not consist of service/user properties (the value the entity consumed)&lt;/li&gt;&lt;li&gt;should consist of the the data published from the entity&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="7555" width="310" height="265" as="geometry" />
+        <mxCell id="nFlBU5UEVlGkz6DeCRiB-102" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Metadata&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;is used to describe the resource entity&lt;/li&gt;&lt;li&gt;should not consist of service/user properties (the value the entity consumed)&lt;/li&gt;&lt;li&gt;should consist of the the data published from the entity&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="7555" width="540" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="nFlBU5UEVlGkz6DeCRiB-103" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Service Metadata&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;routes information&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;revision&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="7702.5" width="160" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nFlBU5UEVlGkz6DeCRiB-104" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Environment Metadata&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;services within&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;deployment info&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="7705" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="nFlBU5UEVlGkz6DeCRiB-105" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Usecase Metadata&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;name&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="7839" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="nFlBU5UEVlGkz6DeCRiB-106" value="&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Client Metadata&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;info&lt;/li&gt;&lt;li&gt;auth configuration&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="7839" width="160" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
