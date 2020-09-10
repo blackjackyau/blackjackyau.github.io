@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T12:33:28.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="O3LE5vElqsXy31jhlIvM" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-10T12:35:46.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="HVXbmvhcPyxJ8jlJ3dZ6" version="13.6.9" type="github">
   <diagram id="QwgGPqd0MF7SwD2WUHnU" name="Page-1">
     <mxGraphModel dx="3826" dy="2394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -1001,14 +1001,16 @@
         <mxCell id="T64GbQtzmry8kE4Anq7_-31" value="Global Usecase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2510" y="5040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T64GbQtzmry8kE4Anq7_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T64GbQtzmry8kE4Anq7_-32" target="T64GbQtzmry8kE4Anq7_-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="T64GbQtzmry8kE4Anq7_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="T64GbQtzmry8kE4Anq7_-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="4985" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-32" value="&amp;lt;&amp;lt;Identifier&amp;gt;&amp;gt;&lt;br&gt;solution-key: cust-acquisition&lt;br&gt;bps-version: 10.0.1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="4955" width="170" height="60" as="geometry" />
+          <mxGeometry x="1930" y="4910" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T64GbQtzmry8kE4Anq7_-34" value="If not found, deploy and send to SCS to compile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="5050" width="120" height="60" as="geometry" />
+        <mxCell id="T64GbQtzmry8kE4Anq7_-34" value="If solution is found but bps version not match, deploy and send to SCS to compile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="5040" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-36" value="found base on priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="2240" y="4920" width="130" height="20" as="geometry" />
