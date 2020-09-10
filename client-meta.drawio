@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-09-10T12:49:24.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="cAgSvA80Kxz5X-PgdEOk" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-10T12:52:50.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="TPFhTef3HXAQCozl906Q" version="13.6.9" type="github">
   <diagram id="QwgGPqd0MF7SwD2WUHnU" name="Page-1">
-    <mxGraphModel dx="3826" dy="2394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3826" dy="2394" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="T64GbQtzmry8kE4Anq7_-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2330" y="5105" as="sourcePoint" />
-            <mxPoint x="2890" y="5105" as="targetPoint" />
+            <mxPoint x="2972" y="5190" as="sourcePoint" />
+            <mxPoint x="3532" y="5190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2330" y="5020" as="sourcePoint" />
-            <mxPoint x="2890" y="5020" as="targetPoint" />
+            <mxPoint x="2972" y="5105" as="sourcePoint" />
+            <mxPoint x="3532" y="5105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -982,16 +982,16 @@
           <mxGeometry x="1300" y="4740" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-22" value="1. config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="4955" width="120" height="60" as="geometry" />
+          <mxGeometry x="2992" y="5040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T64GbQtzmry8kE4Anq7_-23" target="T64GbQtzmry8kE4Anq7_-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-23" value="2. artifactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="5035" width="120" height="60" as="geometry" />
+          <mxGeometry x="2992" y="5120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-24" value="3. default" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="5115" width="120" height="60" as="geometry" />
+          <mxGeometry x="2992" y="5200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T64GbQtzmry8kE4Anq7_-25" target="T64GbQtzmry8kE4Anq7_-22">
           <mxGeometry relative="1" as="geometry" />
@@ -1004,43 +1004,43 @@
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T64GbQtzmry8kE4Anq7_-25" target="T64GbQtzmry8kE4Anq7_-38">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2200" y="5140" as="targetPoint" />
+            <mxPoint x="2842" y="5225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-25" value="DMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="4955" width="120" height="60" as="geometry" />
+          <mxGeometry x="2782" y="5040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-30" value="Client Specific" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="2739" y="4954" width="120" height="60" as="geometry" />
+          <mxGeometry x="3381" y="5039" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-31" value="Global Usecase" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="2740" y="5034" width="120" height="60" as="geometry" />
+          <mxGeometry x="3382" y="5119" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="T64GbQtzmry8kE4Anq7_-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1930" y="4985" as="sourcePoint" />
+            <mxPoint x="2572" y="5070" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-32" value="&amp;lt;&amp;lt;Identifier&amp;gt;&amp;gt;&lt;br&gt;solution: cust-acquisition&lt;br&gt;solution-version: 2.0.2&lt;br&gt;bps-version: 10.0.1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="4880" width="170" height="90" as="geometry" />
+          <mxGeometry x="2602" y="4965" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-34" value="If solution is found but bps version not match, deploy and send to SCS to compile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="5040" width="140" height="80" as="geometry" />
+          <mxGeometry x="2692" y="5125" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-36" value="found base on priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="4915" width="130" height="20" as="geometry" />
+          <mxGeometry x="2982" y="5000" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-37" value="for worst case, if solution is not found" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="2740" y="5115" width="120" height="60" as="geometry" />
+          <mxGeometry x="3382" y="5200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-38" value="Solution Compiler Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="5150" width="120" height="60" as="geometry" />
+          <mxGeometry x="2782" y="5235" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-41" value="|- cust-acquisition&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;| - ${solution-version}&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | - solution.xml&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |- ${bps-version}&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |- bpc.zip&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |- dbpdm.zip&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2524" y="5012.5" width="180" height="105" as="geometry" />
+          <mxGeometry x="3166" y="5097.5" width="180" height="105" as="geometry" />
         </mxCell>
         <mxCell id="T64GbQtzmry8kE4Anq7_-45" value="BPS init container" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="4955" width="120" height="60" as="geometry" />
+          <mxGeometry x="2452" y="5040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
